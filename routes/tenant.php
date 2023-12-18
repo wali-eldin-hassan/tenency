@@ -74,8 +74,6 @@ Route::group([
             Route::resource('/categories', CategoriesController::class);
             Route::controller(CustomersController::class)->group(function () {
                 Route::get('/customers', 'index')->name('customers.index');
-                Route::get('/customers/create', 'create')->name('customers.create');
-                Route::post('/customers', 'store')->name('customers.store');
                 Route::patch('/customers/{user}', 'update')->name('customers.update');
             });
         });

@@ -30,7 +30,7 @@ class RegisteredTenantController extends Controller
             'company' => $request->company,
             'domain' => $request->domain,
             'email' => $request->email,
-            'approved' => false,
+            'approved' => true,
         ]);
 
         $tenant->createDomain([
