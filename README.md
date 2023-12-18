@@ -23,8 +23,16 @@ This Laravel-based project is a robust multi-tenancy e-commerce platform designe
   - If You Use Another Url Name (localhost..etc), make sure to  update the `APP_DOMAIN` in env to `localhost`.
   - And modify the central domain in the tenancy config file to `localhost` .
 
+## Usage
 
-## Getting started
+1. **Authentication:** Users log in with their credentials, and upon successful authentication, they are directed to their personalized dashboard.
+
+2. **Dashboard Functionality:** Tenants can seamlessly manage their product listings, user accounts, and category structures through an intuitive dashboard.
+
+3. **Website for Tenants:** Tenants have a website template to showcase their products. Users can access the website, view products, and place orders directly.
+
+
+## Setup and Configuration
 
 Assuming you've already installed on your machine: PHP (>= 7.0.0), [Laravel](https://laravel.com), [Composer](https://getcomposer.org) and [Node.js](https://nodejs.org).
 
